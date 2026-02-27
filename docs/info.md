@@ -35,10 +35,11 @@ Set the two selected input switches high or low.
 
 Verify the AND truth table:
 
-A	B	AND Output
-0	0	0
-0	1	0
-1	0	0
-1	1	1
+| A | B | AND |
+|---|---|-----|
+| 0 | 0 |  0  |
+| 0 | 1 |  0  |
+| 1 | 0 |  0  |
+| 1 | 1 |  1  |
 
 The AND output should only be high when both inputs are high.
