@@ -9,12 +9,36 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Eight input switches (IN0–IN7) feed the input bus.
+
+Two selected inputs (IN1 and IN2) are routed into an AND gate whose output is sent to the output block.
+
+Two divided clock signals are taken from the counter stages and routed to output pins and to the 7-segment display driver.
+
+A reset push button clears the chain to zero.
+
+The outputs are connected to:
+
+Logic output (AND result)
+
+Divided clock outputs
+
+7-segment display segments
+
+Each counter stage output represents:
+
 
 ## How to test
+1️⃣ Test the AND logic
 
-Explain how to use your project
+Set the two selected input switches high or low.
 
-## External hardware
+Verify the AND truth table:
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+A	B	AND Output
+0	0	0
+0	1	0
+1	0	0
+1	1	1
+
+The AND output should only be high when both inputs are high.
