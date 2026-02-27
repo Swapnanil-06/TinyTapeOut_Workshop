@@ -25,8 +25,6 @@ Divided clock outputs
 
 7-segment display segments
 
-Each counter stage output represents:
-
 
 ## How to test
 Test the AND logic
