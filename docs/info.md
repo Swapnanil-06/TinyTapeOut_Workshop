@@ -29,7 +29,7 @@ Each counter stage output represents:
 
 
 ## How to test
-1️⃣ Test the AND logic
+Test the AND logic
 
 Set the two selected input switches high or low.
 
